@@ -1,17 +1,17 @@
 {
-  "name": "pretty-seconds",
+  "name": "pretty-seconds-spanish",
   "version": "2.0.0",
-  "description": "a very simple function to stringify any huge number of seconds. give it million seconds and it tells you how many days, hours, minutes and seconds in a pretty string.",
-  "main": "dist/pretty-seconds.js",
-  "author": "Michael Heuberger <michael.heuberger@binarykitchen.com>",
+  "description": "pretty seconds translation to spanish",
+  "main": "./index.js",
+  "author": "Sr Izan <izan@srizan.ml>",
   "keywords": [
     "time",
     "seconds",
     "string"
   ],
   "source": "index.js",
-  "module": "dist/pretty-seconds.mjs",
-  "unpkg": "dist/pretty-seconds.umd.js",
+  "module": "dist/index.mjs",
+  "unpkg": "dist/index.umd.js",
   "scripts": {
     "test": "nodeunit tests/basics.js",
     "lint": "standard index.js",
@@ -29,7 +29,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/binarykitchen/pretty-seconds.git"
+    "url": "https://github.com/srizan10/pretty-seconds-spanish.git"
   },
   "license": "MIT",
   "readmeFilename": "README.md",

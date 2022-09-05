@@ -1,2 +1,0 @@
-!function(n){"function"==typeof define&&define.amd?define(n):n()}(function(){function n(n,e,t,o){return(t||o&&!t)&&((t>1||t<-1||0===t)&&(e+="s"),n.push(t+" "+e)),n}function e(n){return n.toFixed(10)}module.exports=function(t){var o="",r=[];if("number"==typeof t){r=n(r,"day",parseInt(e(t/86400))),r=n(r,"hour",parseInt(e(t%86400/3600))),r=n(r,"minute",parseInt(e(t%3600/60)));var f,u=(r=n(r,"second",Math.floor(t%60),r.length<1)).length;for(f=0;f<u;f++)o.length>0&&(o+=f===u-1?" and ":", "),o+=r[f]}return o}});
-//# sourceMappingURL=pretty-seconds.umd.js.map
