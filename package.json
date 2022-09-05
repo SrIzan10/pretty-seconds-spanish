@@ -1,6 +1,6 @@
 {
   "name": "pretty-seconds-spanish",
-  "version": "2.0.2",
+  "version": "2.1.0",
   "description": "pretty seconds translation to spanish",
   "main": "./index.js",
   "author": "Sr Izan <izan@srizan.ml>",
